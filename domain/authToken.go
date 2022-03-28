@@ -1,8 +1,8 @@
 package domain
 
 import (
-	"github.com/luizarnoldch/REST-based-microservices-API-development-in-Golang/tree/master/banking-lib/logger"
-	"github.com/luizarnoldch/REST-based-microservices-API-development-in-Golang/tree/master/banking-lib/errs"
+	"github.com/luizarnoldch/REST-based-microservices-API-development-in-Golang-Banking-Lib/logger"
+	"github.com/luizarnoldch/REST-based-microservices-API-development-in-Golang-Banking-Lib/errs"
 	"github.com/dgrijalva/jwt-go"
 )
 

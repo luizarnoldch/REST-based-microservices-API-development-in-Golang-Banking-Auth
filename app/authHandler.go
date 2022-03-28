@@ -3,9 +3,9 @@ package app
 import (
 	"net/http"
 "encoding/json"
-"github.com/luizarnoldch/REST-based-microservices-API-development-in-Golang/tree/master/banking-auth/dto"
-"github.com/luizarnoldch/REST-based-microservices-API-development-in-Golang/tree/master/banking-auth/service"
-"github.com/luizarnoldch/REST-based-microservices-API-development-in-Golang/tree/master/banking-lib/logger"
+"github.com/luizarnoldch/REST-based-microservices-API-development-in-Golang-Banking-Auth/domain"
+"github.com/luizarnoldch/REST-based-microservices-API-development-in-Golang-Banking-Auth/service"
+"github.com/luizarnoldch/REST-based-microservices-API-development-in-Golang-Banking-Lib/logger"
 )
 
 type AuthHandler struct {

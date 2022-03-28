@@ -3,10 +3,10 @@ package service
 import(
 	"fmt"
 	"github.com/dgrijalva/jwt-go"
-	"github.com/luizarnoldch/REST-based-microservices-API-development-in-Golang/tree/master/banking-auth/domain"
-	"github.com/luizarnoldch/REST-based-microservices-API-development-in-Golang/tree/master/banking-auth/dto"
-	"github.com/luizarnoldch/REST-based-microservices-API-development-in-Golang/tree/master/banking-lib/logger"
-	"github.com/luizarnoldch/REST-based-microservices-API-development-in-Golang/tree/master/banking-lib/errs"
+	"github.com/luizarnoldch/REST-based-microservices-API-development-in-Golang-Banking-Auth/domain"
+	"github.com/luizarnoldch/REST-based-microservices-API-development-in-Golang-Banking-Auth/dto"
+	"github.com/luizarnoldch/REST-based-microservices-API-development-in-Golang-Banking-Lib/logger"
+	"github.com/luizarnoldch/REST-based-microservices-API-development-in-Golang-Banking-Lib/errs"
 )
 
 type AuthService interface {

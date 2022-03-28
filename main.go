@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/luizarnoldch/REST-based-microservices-API-development-in-Golang/tree/master/banking-auth/app"
+	"github.com/luizarnoldch/REST-based-microservices-API-development-in-Golang-Banking-Auth/app"
 )
 
 func main() {

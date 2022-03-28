@@ -2,8 +2,8 @@ package domain
 
 import(
 	"database/sql"
-	"github.com/luizarnoldch/REST-based-microservices-API-development-in-Golang/tree/master/banking-lib/logger"
-	"github.com/luizarnoldch/REST-based-microservices-API-development-in-Golang/tree/master/banking-lib/errs"
+	"github.com/luizarnoldch/REST-based-microservices-API-development-in-Golang-Banking-Lib/logger"
+	"github.com/luizarnoldch/REST-based-microservices-API-development-in-Golang-Banking-Lib/errs"
 	"github.com/jmoiron/sqlx"
 )
 
