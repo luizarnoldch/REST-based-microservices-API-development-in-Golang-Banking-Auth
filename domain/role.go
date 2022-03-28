@@ -10,7 +10,7 @@ type RolePermissions struct {
 
 func (p RolePermissions) IsAuthorizedFor(role string, routeName string) bool {
 	perms := p.rolePermissions[role]
-	for _,r := range perms {
+	for _, r := range perms {
 		if r == strings.TrimSpace(routeName) {
 			return true
 		}
@@ -20,7 +20,7 @@ func (p RolePermissions) IsAuthorizedFor(role string, routeName string) bool {
 
 func GetRolePermissions() RolePermissions {
 	return RolePermissions{map[string][]string{
-		"admin": {"GetAllCustomers","GetCustomer","NewAccount","NewTransaction"},
-		"user": {"GetCustomer","NewTransaction"},
+		"admin": {"GetAllCustomers", "GetCustomer", "NewAccount", "NewTransaction"},
+		"user":  {"GetCustomer", "NewTransaction"},
 	}}
 }
