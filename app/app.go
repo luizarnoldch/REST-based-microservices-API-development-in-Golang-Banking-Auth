@@ -10,12 +10,19 @@ import (
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/gorilla/mux"
 	"github.com/jmoiron/sqlx"
+	"github.com/joho/godotenv"
 	"github.com/luizarnoldch/REST-based-microservices-API-development-in-Golang-Banking-Auth/domain"
 	"github.com/luizarnoldch/REST-based-microservices-API-development-in-Golang-Banking-Auth/service"
 	"github.com/luizarnoldch/REST-based-microservices-API-development-in-Golang-Banking-Lib/logger"
 )
 
 func Start() {
+
+	err := godotenv.Load(".env")
+	if err != nil {
+		log.Fatal("Error loading .env")
+	}
+
 	sanityCheck()
 	router := mux.NewRouter()
 	authRepository := domain.NewAuthRepository(getDbClient())
