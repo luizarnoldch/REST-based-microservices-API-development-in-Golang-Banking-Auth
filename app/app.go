@@ -65,7 +65,6 @@ func sanityCheck() {
 		"DB_USER",
 		"DB_PASSWD",
 		"DB_ADDR",
-		"DB_PORT",
 		"DB_NAME",
 	}
 	for _, k := range envProps {
